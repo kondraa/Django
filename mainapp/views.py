@@ -13,6 +13,7 @@ def products(request):
     file_path = os.path.join(MODULE_DIR, 'fixtures/products.json')
     context = {
         'title': 'geekshop',
+
         'products' : json.load(open(file_path, encoding='utf-8'))
         # 'products': [{'name': 'Худи черного цвета с монограммами adidas Originals', 'price': '6090.00',
         #               'description': 'Мягкая ткань для свитшотов. Стиль и комфорт – это образ жизни.',
