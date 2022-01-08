@@ -1,4 +1,5 @@
-.idea,
-pycache/,
-db.sqlite3,
+.idea
+pycache/
+db.sqlite3
 README.md
+/media
